@@ -1,0 +1,12 @@
+<suite name = "TutorialsNinja Automation Suite">
+    <test name = "TutorialsNinja Test">
+        <listeners>
+            <listener class-name = "com.tutorialsninja.qa.listeners.Listeners"></listener>
+        </listeners>
+        <classes>
+            <class name = "com.tutorialsninja.qa.testcases.RegisterTest"></class>
+            <class name = "com.tutorialsninja.qa.testcases.LoginTest"></class>
+            <class name = "com.tutorialsninja.qa.testcases.SearchTest"></class>
+        </classes>
+    </test>
+</suite>
